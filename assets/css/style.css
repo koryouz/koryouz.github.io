@@ -1,0 +1,120 @@
+input[type=text] {
+  width: 40%;
+  padding: 2%;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: #bbc8dd;
+}
+
+textarea {
+  border: none;
+  border-bottom: 2px solid red;
+  background-color: #bbc8dd;
+  margin-bottom: 20px;
+  resize: none !important;
+}
+
+hr {
+  background-color: red;
+  margin-right: 70%;
+  width: 30%;
+  height: 5px !important;
+}
+
+ol {
+  list-style-type: none;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+.parallaxText {
+  color: white;
+  font-size: 26px;
+  font-family: Verdana, serif;
+  font-weight: bold;
+  margin-left: 2%;
+  border-style: solid;
+}
+
+#navbar {
+  line-height: 38px;
+}
+
+.parallax {
+  background-image: url("../img/office-workplace-code.jpg");
+  height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.parallax2 {
+  height: 300px;
+}
+
+.contentMarging {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.footerPadding {
+  padding-top: 1%;
+}
+
+.footerFaPadding {
+  padding-left: 3%;
+}
+
+.footerTopLeft {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  padding: 2%;
+  background-color: #2e4975;
+}
+
+.footerTopRight {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 2%;
+  background-color: #bbc8dd;
+}
+
+.footerBottomLeftAlign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerBottomRightAlign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentTitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.colorWhite {
+  color: white;
+}
+
+.colorBlack {
+  color: black;
+}
