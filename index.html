@@ -5,6 +5,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
@@ -17,83 +18,96 @@
       <p>&nbsp;WEB Developpeur Junior Fullstack&nbsp;</p>
     </div>
   </div>
-  <nav id="navbar">
+  <nav id="navbar" class="animated fadeIn sticky-top">
     <ul class="nav nav-fill justify-content-center bg-dark sticky-top">
       <li class="nav-item color">
-        <a id="aboutButton" class="nav-link" href="#navbar"><span class="colorWhite">À PROPOS</span></a>
+        <a id="aboutButton" class="nav-link" href="#about"><span class="colorWhite">À PROPOS</span></a>
       </li>
       <li class="nav-item">
-        <a id="experiencesButton" class="nav-link" href="#navbar"><span class="colorWhite">EXPÉRIENCES</span></a>
+        <a id="experiencesButton" class="nav-link" href="#experiences"><span class="colorWhite">EXPÉRIENCES</span></a>
       </li>
       <li class="nav-item">
-        <a id="skillsButton" class="nav-link" href="#parallaxMiddle"><span class="colorWhite">COMPÉTENCES</span></a>
+        <a id="skillsButton" class="nav-link" href="#skills"><span class="colorWhite">COMPÉTENCES</span></a>
       </li>
       <li class="nav-item">
-        <a id="educationButton" class="nav-link" href="#navbar"><span class="colorWhite">ÉDUCATION</span></a>
-      </li>
-      <li class="nav-item">
-        <a id="hobbiesButton" class="nav-link" href="#navbar"><span class="colorWhite">LOISIRS ET PASSIONS</span></a>
+        <a id="educationButton" class="nav-link" href="#education"><span class="colorWhite">PARCOURS SCOLAIRE</span></a>
       </li>
     </ul>
   </nav>
   <div class="container">
     <div class="row">
-      <div class="col 12">
-        <div id="about" class="shadow contentMarging">
+      <div class="col-12">
+        <div id="about" class="shadow contentMarging hreftweak">
           <ol>
             <li class="contentTitle">À PROPOS</li><hr />
-            <li>PROFIL</li>
+            <li class="contentMarging subContent">PROFIL</li>
             <div class="row">
               <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-sm-12">
-                <li>Psqd</li>
+                <p>Jeune Développeur Web diplomé de la formation de l'Ecole du Numérique du Noyonnais (bac+2), je suis à la recherche d'un emploi dans le numérique.</p>
+                <p>Je suis disponible dans tout le secteur des Hauts de France ainsi que la région parisienne.</p>
+                <p>N'hésitez pas à me contacter <a href="#contact">[ici]</a><br />Pour plus d'informations sur moi et mes projets faites un tour sur mon Linkedin et Github.</p>
               </div>
               <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-sm-12">
-                <li>J’ai passé les dernières années à m'investir dans le monde du code en étant autodidacte et ainsi former mes premiers lignes (macro & initiation au language compilé).</li>
-                <li>Dans ce cadre de travail, je me suis orienté par préférence, pour la partie graphique (n'excluant pas la partie back-end) et j'ai donc chercher une formation qualifiante et efficiante pour commencer dans le développeent Web.</li>
-                <li>La formation Développeur Web chez E2N à Noyon, m'a permis d'acquérir les compétences nécessaires pour le travail en entreprise, notamment l'assiduité, la ponctualité et la cohésion d'équipe. Les méthodes d'apprentisages m'ont accordés une vision plus large et précise de la programmation mais aussi la capacité d'apprendre plus efficacement un nouveau language de programmation.</li>
+                <p>J’ai passé les dernières années à m'investir dans le monde du code en étant autodidacte et ainsi former mes premiers lignes (macro et initiation au language compilé).</p>
+                <p>Dans ce cadre de travail, je me suis orienté par préférence, pour la partie graphique (n'excluant pas la partie back-end) et j'ai donc chercher une formation qualifiante et efficiante pour commencer dans le dévelopement Web.</p>
+                <p>La formation Développeur Web chez E2N à Noyon, m'a permis d'acquérir les compétences nécessaires pour le travail en entreprise, notamment l'assiduité, la ponctualité et la cohésion d'équipe. Les méthodes d'apprentisages m'ont accordés une vision plus large et précise de la programmation mais aussi la capacité d'apprendre plus efficacement un nouveau language de programmation.</p>
+              </div>
+            </div>
+            <li class="contentTitle rightContent">LOISIRS & PASSIONS<hr/></li>
+            <div class="row hobbiesMarg">
+              <div class="col-lg-3 col-xl-3 col-12 col-md-6 col-sm-12">
+                <img src="assets/img/bicycle.png" alt="bicycle">
+              </div>
+              <div class="col-lg-3 col-xl-3 col-12 col-md-6 col-sm-12">
+                <img src="assets/img/multimedia.png" alt="multimedia">
+              </div>
+              <div class="col-lg-3 col-xl-3 col-12 col-md-6 col-sm-12">
+                <img src="assets/img/coding.png" alt="coding">
+              </div>
+              <div class="col-lg-3 col-xl-3 col-12 col-md-6 col-sm-12">
+                <img src="assets/img/gaming.png" alt="gaming">
               </div>
             </div>
           </ol>
         </div>
-        <div id="experiences" class="shadow contentMarging">
+        <div id="experiences" class="shadow contentMarging hreftweak">
           <ol>
-            <li class="contentTitle">EXPÉRIENCES</li><hr />
+            <div class="hrefTitle"><li class="contentTitle">EXPÉRIENCES</li><hr /></div>
             <div class="row">
               <div class="col-lg-12 col-xl-12 col-12 col-md-12 col-sm-12">
-                <li>2017 - 2018</li>
-                <li>Apprenti agent de maintenance chez DANA Thermal Production à Guiscard</li>
-                <li>2016 - 2017</li>
-                <li>Apprenti agent de maintenance chez Toyo Ink à Villers Saint Paul</li>
-                <li>2014</li>
-                <li>Bénévolat pour la réhabilitation d'une maison</li>
-                <li>2012</li>
-                <li>Stage découverte : Initiation du travail en groupe dans une menuserie marine</li>
+                <li class="subContent">DANA Thermal Production à Guiscard</li>
+                <li class="subDate">2017 - 2018</li>
+                <p>Apprenti en alternance, agent de maintenance dans un laboratoire de chimie (test de pièce mécanique)</p><br />
+                <li class="subContent">Toyo Ink à Villers Saint Paul</li>
+                <li class="subDate">2016 - 2017</li>
+                <p>Apprenti en alternance, agent de maintenance en mécanique et électrique industrielle</p><br />
+                <li class="subContent">à Longueil Annel</li>
+                <li class="subDate">2014</li>
+                <p>Bénévolat pour la réhablitation d'une maison</p><br />
+                <li class="subContent">Menuiserie Marine à Longueil Annel</li>
+                <li class="subDate">2011</li>
+                <p>Stage découverte : Initiation du travail en groupe dans une menuserie marine</p>
               </div>
             </div>
           </ol>
         </div>
-        <div id="education" class="shadow contentMarging">
+        <div id="education" class="shadow contentMarging hreftweak">
           <ol>
-            <li class="contentTitle">EDUCATION</li><hr />
-            <li>PROFIL</li>
+            <div class="hrefTitle"><li class="contentTitle">PARCOURS SCOLAIRE</li><hr /></div>
             <div class="row">
-              <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-sm-12">
-                <li>Psqd</li>
-              </div>
-              <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-sm-12">
-              </div>
-            </div>
-          </ol>
-        </div>
-        <div id="hobbies" class="shadow contentMarging">
-          <ol>
-            <li class="contentTitle">LOISIRS ET PASSIONS</li><hr />
-            <li>PROFIL</li>
-            <div class="row">
-              <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-sm-12">
-                <li>Psqd</li>
-              </div>
-              <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-sm-12">
+              <div class="col-lg-12 col-xl-12 col-12 col-md-12 col-sm-12">
+                <li class="subContent">Ecole du Numérique du Noyonnais</li>
+                <li class="subDate">2019 - 2019</li>
+                <p>Apprenant à E2N dans le Web Developpement (HTML/CSS/JAVASCRIPT)</p><br />
+                <li class="subContent">PROMEO à Compiègne</li>
+                <li class="subDate">2015 - 2017</li>
+                <p>Apprentissage en alternance, chez Toyo Ink durant la première année puis chez DANA Thermal Production l'année suivante.</p><br />
+                <li class="subContent">DUT GEII à l'IUT de Villeneuve d'Ascq</li>
+                <li class="subDate">2012 - 2014</li>
+                <p>Etudiant pour le DUT Génie Electrique Informatique et Industrielle (non obtention de la deuxième année)</p><br />
+                <li class="subContent">LYCÉE Jean Calvin à Noyon</li>
+                <li class="subDate">2011 - 2012</li>
+                <p>Etudiant pour le BAC S option Science de l'Ingenieur</p>
               </div>
             </div>
           </ol>
@@ -101,72 +115,113 @@
       </div>
     </div>
   </div>
-  <div id="parallaxMiddle" class="parallax parallax2"></div>
-  <div class="container">
+  <div class="parallax parallax2"></div>
+  <div class="container shadow contentMarging hreftweak" id="skills">
     <div class="row">
-      <div class="col 12">
-        <div id="skills" class="shadow contentMarging">
-          <ol>
-            <li class="contentTitle">COMPETENCES</li><hr />
-            <li>PROFIL</li>
-            <div class="row">
-              <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-sm-12">
-                <li>Psqd</li>
-              </div>
-              <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-sm-12">
-              </div>
-            </div>
-          </ol>
-        </div>
+      <div class="col-12">
+        <ol>
+          <li class="contentTitle">COMPÉTENCES</li><hr/>
+          <table>
+            <col width="500">
+            <col width="500">
+            <tr>
+              <th class="subContent">Front-End</th>
+              <th class="subContent">Back-End</th>
+            </tr>
+            <tr>
+              <td>HTML : 65%<div class="progress"><div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div></div></td>
+              <td>PHP : à venir</td>
+            </tr>
+            <tr>
+              <td>CSS : 55%<div class="progress"><div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div></div></td>
+              <td>MySQL : à venir</td>
+            </tr>
+            <tr>
+              <td>JavaScript : 35%<div class="progress"><div class="progress-bar" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div></div></td>
+              <td>Symphony : à venir</td>
+            </tr>
+            <tr>
+              <td>JQuery : 55%<div class="progress"><div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div></div></td>
+            </tr>
+          </table>
+          <table>
+            <col width="500">
+            <col width="500">
+            <tr>
+              <th class="subContent">Framework</th>
+              <th class="subContent">Outils</th>
+            </tr>
+            <tr>
+              <td>Bootstrap : 65%<div class="progress"><div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div></div></td>
+              <td>Nano : 35%<div class="progress"><div class="progress-bar bg-info" role="progressbar" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div></div></td>
+            </tr>
+            <tr>
+              <td>Materialize : 45%<div class="progress"><div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div></div></td>
+              <td>Atom : 65%<div class="progress"><div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div></div></td>
+            </tr>
+            <tr>
+              <td>AngularJS : 25%<div class="progress"><div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div></div></td>
+              <td>Git & GitHub : 65%<div class="progress"><div class="progress-bar bg-info" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div></div></td>
+            </tr>
+          </table>
+          <div class="contentTitle rightContent">LANGUES<hr /></div>
+        </ol>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6 centerContent"><div class="frenchbox centerContent">FRANÇAIS MATERNELLE</div>
+    </div>
+    <div class="col-6 centerContent"><div class="englishbox centerContent">ANGLAIS AVANCÉ</div>
+  </div>
+</div>
+</div>
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-sm-12 footerTopLeft">
+        <ol id="contact">
+          <li class="contentTitle">INFOS RAPIDE</li><hr>
+          <table class="tableInfo">
+            <tr class="footerTable">
+              <th>Téléphone</th>
+              <td>06 69 25 51 17</td>
+            </tr>
+            <tr class="footerTable">
+              <th>E-mail</th>
+              <td>delhayantoine@gmail.com</td>
+            </tr>
+            <tr class="footerTable">
+              <th>Site</th>
+              <td>https://koryouz.github.io/</td>
+            </tr>
+            <tr class="footerTable">
+              <th>Adresse</th>
+              <td>41 avenue du beau rivage, Longueil Annel</td>
+            </tr>
+          </table>
+        </ol>
+      </div>
+      <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-sm-12 footerTopRight">
+        <ol>
+          <li  class="contentTitle colorBlack">ME CONTACTER</li><hr>
+          <li><input type="text" placeholder="Nom *"><input type="text" placeholder="E-mail *"></li>
+          <li><input type="text" placeholder="Sujet"></li>
+          <li><textarea cols="80" rows="8" placeholder="Message"></textarea></li>
+          <li><button type="button" class="btn btn-danger">Envoyer</button></li>
+        </ol>
       </div>
     </div>
   </div>
-  <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-sm-12 footerTopLeft">
-          <ol>
-            <li class="contentTitle">INFOS RAPIDE</li><hr>
-            <table>
-              <tr>
-                <th>Téléphone&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
-                <td>06 69 25 51 17</td>
-              </tr>
-              <tr>
-                <th>E-mail</th>
-                <td>delhayantoine@gmail.com</td>
-              </tr>
-              <tr>
-                <th>Site</th>
-                <td>https://koryouz.github.io/</td>
-              </tr>
-              <tr>
-                <th>Adresse</th>
-                <td>41 avenue du beau rivage, Longueil Annel</td>
-              </tr>
-            </table>
-          </ol>
-        </div>
-        <div class="col-lg-6 col-xl-6 col-12 col-md-12 col-sm-12 footerTopRight">
-          <ol>
-            <li  class="contentTitle colorBlack">ME CONTACTER</li><hr>
-            <li><input type="text" placeholder="Nom *"><input type="text" placeholder="E-mail *"></li>
-            <li><input type="text" placeholder="Sujet"></li>
-            <li><textarea rows="6" cols="60" placeholder="Message"></textarea></li>
-            <li><button type="button" class="btn btn-danger">Envoyer</button></li>
-          </ol>
-        </div>
+  <div class="container footerBottom">
+    <div class="row">
+      <div class="col-6">
+        <div class="footerBottomAlign"><button type="button" class="btn btn-outline-secondary">TÉLÉCHARGER MON CV COMPLET</button></div>
+        <p class="footerBottomAlign">© 2018 par Antoine DELHAY. Créé avec Atom.</p>
       </div>
-    </div>
-    <div class="container footerPadding">
-      <div class="row">
-        <div class="col-6">
-          <div class="footerBottomLeftAlign"><button type="button" class="btn btn-outline-secondary">TÉLÉCHARGER MON CV COMPLET</button></div>
-          <p class="footerBottomLeftAlign">© 2018 par Antoine DELHAY. Créé avec Atom.</p>
-        </div>
-        <div class="col-6">
-          <div class="footerBottomRightAlign"><i class="fab fa-linkedin fa-2x"></i><i class="fab fa-github-square fa-2x footerFaPadding"></i><i class="fab fa-facebook fa-2x footerFaPadding"></i><i class="fab fa-google-plus-square fa-2x footerFaPadding"></i></div>
-          <p class="footerBottomRightAlign">Suivez-moi sur les réseaux sociaux</p>
+      <div class="col-6">
+        <div class="footerBottomAlign"><a href="https://www.linkedin.com/in/antoine-delhay-843402152/"><i class="fab fa-linkedin fa-3x linkedinColor"></i></a><a href="https://github.com/koryouz" class="footerFaPadding"><i class="fab fa-github-square fa-3x githubColor"></i></a><a href="https://www.facebook.com/antoine.delhay" class="footerFaPadding"><i class="fab fa-facebook fa-3x facebookColor"></i></a>
+          <a href="https://plus.google.com/101957162705540842281" class="footerFaPadding"><i class="fab fa-google-plus-square fa-3x googleColor"></i></a></div>
+          <p class="footerBottomAlign">Suivez-moi sur les réseaux sociaux</p>
         </div>
       </div>
     </div>
